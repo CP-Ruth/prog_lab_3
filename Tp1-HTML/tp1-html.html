@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documento Semántico</title>
+</head>
+<body>
+    <!-- Encabezado Principal -->
+    <header>
+        <h1>Encabezado Principal</h1>
+        <nav>
+            <ul>
+                <li><a href="#estructura">Ir a Estructura</a></li>
+                <li><a href="#multimedia">Ir a Multimedia</a></li>
+                <li><a href="#formulario">Ir a Formulario</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección de Estructura Básica -->
+    <section>
+        <h2 id="estructura">1. Estructura Básica del Documento HTML</h2>
+        <p>Este documento tiene una estructura básica que incluye la declaración de DOCTYPE, etiquetas de metadatos y un título.</p>
+    </section>
+
+    <!-- Sección de Encabezados y Propiedades del Texto -->
+    <section>
+        <h2>2. Encabezados y Propiedades del Texto</h2>
+        <p><strong>Esto es un texto en negrita.</strong></p>
+        <p><em>Esto es un texto en cursiva.</em></p>
+        <p><u>Esto es un texto subrayado.</u></p>
+    </section>
+
+    <!-- Sección de Divisiones y Agrupación de Contenido -->
+    <section>
+        <h2>3. Divisiones y Agrupación de Contenido</h2>
+        <article>
+            <h3>Sección 1</h3>
+            <p>Contenido de la primera sección agrupada en un div.</p>
+        </article>
+        <article>
+            <h3>Sección 2</h3>
+            <p>Contenido de la segunda sección agrupada en un div.</p>
+        </article>
+    </section>
+
+    <!-- Sección de Enlaces y Listas -->
+    <section>
+        <h2>4. Enlaces y Listas</h2>
+        <p>Enlaces internos:</p>
+        <p>Lista desordenada:</p>
+        <ul>
+            <li>Primer ítem de una lista desordenada</li>
+            <li>Segundo ítem de una lista desordenada</li>
+        </ul>
+        <p>Lista ordenada:</p>
+        <ol>
+            <li>Primer ítem de una lista ordenada</li>
+            <li>Segundo ítem de una lista ordenada</li>
+        </ol>
+    </section>
+
+    <!-- Sección de Elementos Multimedia -->
+    <section id="multimedia">
+        <h2>5. Elementos Multimedia</h2>
+        <img src="./margarita.jpg" alt="Margarita" width="100">
+        <video src="https://video-previews.elements.envatousercontent.com/5b3b6876-9689-4cfe-9692-1cf061a156f6/watermarked_preview/watermarked_preview.mp4" controls width="200"></video>
+        <audio src="https://download.blender.org/peach/trailer/trailer_1080p.ogg" controls autoplay></audio>
+    </section>
+
+    <!-- Sección de Tablas -->
+    <section>
+        <h2>6. Tablas</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Columna 1</th>
+                    <th>Columna 2</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Dato 1</td>
+                    <td>Dato 2</td>
+                </tr>
+                <tr>
+                    <td>Dato 3</td>
+                    <td>Dato 4</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Sección de Formularios -->
+    <section id="formulario">
+        <h2>7. Formularios</h2>
+        <form action="tu-url-de-procesamiento" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" cols="50" required></textarea>
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 - Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
